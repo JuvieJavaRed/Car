@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 21, 2016, 3:07:19 PM
+    Author     : mnyoni
+*/
+
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+header{
+    background: url("../img/header.jpg") no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    height: 100px;
+}
+.form-group{
+   margin: 0 auto;
+   padding-top:  15px;
+  
+}
+.form-panel{
+    position: relative;
+}
+
+
+.banner{
+    background: url("../img/car-background.jpg") no-repeat center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+.aside{
+    background: url("../img/car.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    
+    
+}
+
+.form-inline{
+    margin: 0 auto;
+    display: inline-table;
+   
+}
+
+.show{
+    background-color: #00c5de;
+    opacity: 0.9;
+    height: 40px;
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 0;
+    
+}
+
+.room{
+    background: url("../img/bentley.jpg") no-repeat center;
+    height: 200px;
+    width: 100%;
+    opacity: 0.5;
+    position: relative;
+}
+
+.display{
+   
+  
+}
+
+nav ul li{
+    display: inline-block;
+    float: right;
+    padding: 10px;
+}    
+
+.main{
+   background-color: white; 
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.sticky-footer{
+    width: 100%;
+    overflow: hidden;
+    background: #333;
+    position: relative;
+    bottom: 0;
+    margin-top: 10px;
+    
+}
+
+a{
+    text-decoration:none;
+    color: #0074d9;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}
+
+.clear{
+    height: 30px;
+    width: 100%;
+}
+
+section{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.form-inline{
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+.convobox{
+    background: url("../img/box.png") no-repeat;
+    background-size: cover;
+    height: 156px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:  58px;
+}
+
+
+
